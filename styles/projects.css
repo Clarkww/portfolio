@@ -44,16 +44,6 @@ a:hover {
 
 }
 
-@media screen and (min-width: 600px) {
-
-
-
-    .project-img {
-        /* width: 100%; */
-        /* height: auto; */
-        /* width: 300px; */
-    }
-}
     
 @media screen and (max-width: 900px) {
     .projects-section {
