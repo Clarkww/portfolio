@@ -39,8 +39,11 @@ a:hover {
     height: auto;
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (min-width: 900px) {
+    .dbah-h3 {
+        font-size: 0.9rem;
+        margin-bottom: 27px;
+    }
 
 }
 

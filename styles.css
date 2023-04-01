@@ -4,6 +4,7 @@ body {
     font-family: 'press start 2p';
     margin: 0;
     padding: 0;
+    text-rendering: optimizeLegibility;
 }   
 
 
