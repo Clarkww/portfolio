@@ -30,6 +30,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    padding: 0;
     
 }
 
@@ -53,5 +54,6 @@ a:hover{
         margin: 8rem 0 0 0;
         gap: 90px;
         font-size: 26px;
+        padding: 0;
     }
 }

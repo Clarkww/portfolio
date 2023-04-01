@@ -8,6 +8,8 @@
 		// Get the 2D context of the canvas
 		let ctx = canvas.getContext("2d")
 
+		// Disable image smoothing to make stars look sharper
+		ctx.imageSmoothingEnabled = false
 		// Set the background color of the canvas
 		ctx.fillStyle = "#000000"
 		ctx.fillRect(0, 0, canvas.width, canvas.height)
@@ -44,9 +46,9 @@
 
 				// Increase the size of the star if the mouse is close to it
                 if (distance < 10) {
-                    star.r = 5
+                    star.r = 6
                 } else if(distance < 70){
-                    star.r = 3
+                    star.r = 3.5
                 } else if (distance < 100) {
                     star.r = 2.8
 
