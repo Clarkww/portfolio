@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'press start 2p';
+    margin: 0;
+    padding: 0;
+}   
+
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+header {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.841);
+    width: 100%;
+/* color: white; */
+    text-align: center;
+/* background-color: aliceblue; */
+    font-family: 'press start 2p';
+    color: greenyellow;
+    z-index: 5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+a {
+    color: purple
+}
+
+a:hover{
+    /* colour that contrast with green */
+    color: #ff0000;
+    /* remove underline */
+    text-decoration: none;
+    /* color: ; */
+    /* bring in front of canvas */
+
+
+}
