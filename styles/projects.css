@@ -9,7 +9,7 @@ header h1 {
 }
 
 .project {
-    /* padding: 3rem; */
+    padding: 10px;
     margin: 70px 20px;
     width: 300px;
 
@@ -35,13 +35,15 @@ a:hover {
 }
 
 .project-img {
-    width: 200px;
+    /* width: 250px; */
+    width: 100%;
     height: auto;
+    /* padding: 20px; */
 }
 
 @media screen and (min-width: 900px) {
     .dbah-h3 {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         margin-bottom: 27px;
     }
 
@@ -59,7 +61,9 @@ a:hover {
     }
 
     .project-img {
-        width: 300px;
+        width: 100%;
+        max-width: 250px;
+        height: auto;
 
     }
 
