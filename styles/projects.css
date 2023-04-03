@@ -14,10 +14,10 @@ header h1 {
     width: 300px;
 
     /* max-width: 70%; */
-    border-top: dotted #ff0000 4px;
-    border-bottom: dotted #ff0000 4px;
-    border-left: dashed lime 3px;
-    border-right: dashed lime 3px;
+    border-top: dotted #ff0000 2px;
+    border-bottom: dotted #ff0000 2px;
+    border-left: dashed lime 1px;
+    border-right: dashed lime 1px;
     
     background-color: rgba(0, 0, 0, 0.838);
     /* bring background infront of canvas */

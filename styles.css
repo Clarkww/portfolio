@@ -17,7 +17,7 @@ canvas {
 
 header {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.841);
+    background-color: rgba(0, 0, 0, 0.706);
     width: 100%;
 /* color: white; */
     text-align: center;
@@ -25,6 +25,12 @@ header {
     font-family: 'press start 2p';
     color: greenyellow;
     z-index: 5;
+    
+    padding: 30px 0 5px 0;
+}
+
+h1 {
+    margin: 0;
 }
 
 nav ul {
@@ -48,18 +54,32 @@ a:hover{
     /* bring in front of canvas */
 }
 
+a img {
+    /* make black and white; */
+    /* filter: grayscale(100%); */
+    /* change colour to green */
+
+    filter: hue-rotate(250deg);
+}
+
 /* make footer be at th bottom of the page  */
 footer {
     position: relative;
     bottom: 0;
     width: 100%;
     min-height: 2.5rem;        /* Footer minimum height */
-    background-color: rgba(0, 0, 0, 0.841);
+    background-color: rgba(0, 0, 0, 0.613);
     color: white;
     text-align: center;
     font-family: 'press start 2p';
     color: greenyellow;
     z-index: 5;
+    margin-top: 60px
+  }
+
+  .iconlink {
+    font-size: 8px;
+    line-height: 2.5;
   }
 
 @media screen and (max-width: 600px) {
