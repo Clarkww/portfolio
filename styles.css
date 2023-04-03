@@ -48,6 +48,20 @@ a:hover{
     /* bring in front of canvas */
 }
 
+/* make footer be at th bottom of the page  */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 2.5rem;        /* Footer minimum height */
+    background-color: rgba(0, 0, 0, 0.841);
+    color: white;
+    text-align: center;
+    font-family: 'press start 2p';
+    color: greenyellow;
+    z-index: 5;
+  }
+
 @media screen and (max-width: 600px) {
     .ul-home {
         flex-direction: column;
