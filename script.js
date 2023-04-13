@@ -15,8 +15,8 @@
 		ctx.fillRect(0, 0, canvas.width, canvas.height)
 
 		// Define the two colors
-		let colorOne = "lime"
-		let colorTwo = "red"
+		let colorOne = "cyan"
+		let colorTwo = "purple"
 
 		// Draw a random number of stars on the canvas
 		let numStars = Math.floor(Math.random() * 100) + 110

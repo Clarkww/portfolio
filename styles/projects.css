@@ -1,5 +1,5 @@
 header h1 {
-    color: #ff0000;
+    color: cyan;
 }
 
 .projects-section {
@@ -14,10 +14,7 @@ header h1 {
     width: 300px;
 
     /* max-width: 70%; */
-    border-top: dotted #ff0000 2px;
-    border-bottom: dotted #ff0000 2px;
-    border-left: dashed lime 1px;
-    border-right: dashed lime 1px;
+    border: 1px solid cyan;
     
     background-color: rgba(0, 0, 0, 0.838);
     /* bring background infront of canvas */
@@ -30,7 +27,7 @@ header h1 {
 }
 
 a:hover {
-    color: lime;
+    color: cyan;
     text-decoration: none;
 }
 
