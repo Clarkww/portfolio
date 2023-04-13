@@ -1,3 +1,5 @@
+
+
 body {
     background-color: black;
     color: white;
@@ -23,7 +25,7 @@ header {
     text-align: center;
 /* background-color: aliceblue; */
     font-family: 'press start 2p';
-    color: greenyellow;
+    color: cyan;
     z-index: 5;
     
     padding: 30px 0 5px 0;
@@ -31,12 +33,12 @@ header {
 
 h1 {
     margin: 0;
-    text-shadow: 4px 8px 20px #ff0000;
+    text-shadow: 9px 13px 20px rgb(138, 51, 184);
 }
 
 h2 {
 
-    text-shadow: 4px 8px 20px #ff0000;
+    text-shadow: 4px 8px 20px #00ddff;
 }
 
 nav ul {
@@ -55,7 +57,7 @@ a {
 
 a:hover{
     /* colour that contrast with green */
-    color: #ff0000;
+    color: cyan;
     /* remove underline */
     text-decoration: none;
     /* color: ; */
@@ -65,9 +67,8 @@ a:hover{
 a img {
     /* make black and white; */
     /* filter: grayscale(100%); */
-    /* change colour to green */
-
-    filter: hue-rotate(260deg);
+    /* make color cyan */
+    filter: hue-rotate(342.5deg);
 }
 
 a img:hover {
@@ -85,7 +86,7 @@ footer {
     color: white;
     text-align: center;
     font-family: 'press start 2p';
-    color: greenyellow;
+    color: cyan;
     z-index: 5;
     margin-top: 60px
   }
