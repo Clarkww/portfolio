@@ -32,9 +32,11 @@ a:hover {
 }
 
 .project-img {
-    /* width: 250px; */
-    width: 100%;
-    height: auto;
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    /* width: 100%; */
+    /* height: auto; */
     /* padding: 20px; */
 }
 
@@ -76,7 +78,7 @@ a:hover {
     .project {
         justify-self: center;
         width: 50%;
-        color: red;
+        /* color: red; */
 
     }
 }
